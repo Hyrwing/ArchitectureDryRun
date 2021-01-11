@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="microsoft.entityframeworkcore" Version="3.1.0" />
+    <PackageReference Include="microsoft.entityframeworkcore.cosmos" Version="3.1.0" />
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="3.1.0" />
+  </ItemGroup>
+
 </Project>
